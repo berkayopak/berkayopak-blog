@@ -21,10 +21,10 @@ export default function Header() {
       <nav className="flex filter drop-shadow-md bg-slate-200 dark:bg-slate-800 px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen} routes={routes}/>
             <div className="w-3/12 flex items-center hidden lg:block">
-                <a className="text-2xl font-semibold" href="/">berkayopak.tr</a>
+                <Link className="text-2xl font-semibold" href="/">berkayopak.tr</Link>
             </div>
             <div className="w-9/12 flex items-center lg:hidden">
-                <a className="text-2xl font-semibold" href="/">berkayopak.tr</a>
+                <Link className="text-2xl font-semibold" href="/">berkayopak.tr</Link>
             </div>
             <div className="w-9/12 flex items-center hidden lg:block">
               <HeaderContent open={open} setOpen={setOpen} routes={routes}/>
