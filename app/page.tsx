@@ -93,7 +93,7 @@ export default function Home() {
   return (
     <Layout>
       <div className="md:max-w-[87%] m-auto px-4 md:px-12 flex flex-col gap-24 xl:gap-32 pb-24 xl:pb-36">
-        <h1 className="text-5xl lg:text-6xl max-w-[36rem] mt-24 text-balance break-normal">
+        <h1 className="text-5xl lg:text-6xl max-w-[36rem] mt-24 text-balance min-w-0">
           {home?.title}
         </h1>
 
