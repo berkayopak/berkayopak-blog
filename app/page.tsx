@@ -21,6 +21,7 @@ import ToolsPostCard from '../components/cards/ToolsPostCard'
 import { Metadata } from 'next'
 import { Icon } from '../components/Icon'
 import { AUTHOR_NAME, SITE_NAME, SITE_URL } from '../config'
+import ResourcesPostCard from '../components/cards/ResourcePostCard'
 
 // Get page data
 const home = allPages.find((home) => home?.slug === 'home')
@@ -111,6 +112,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/*
         <section className="flex flex-col gap-4">
           <div className="flex justify-between items-end mb-4">
             <h2 className="text-2xl sm:text-3xl font-bold flex items-center gap-3">
@@ -128,7 +130,7 @@ export default function Home() {
             ))}
           </div>
         </section>
-
+        
         <section className="flex flex-col gap-4">
           <div className="flex justify-between items-end mb-4">
             <h2 className="text-2xl sm:text-3xl font-bold flex items-center gap-3">
@@ -143,7 +145,7 @@ export default function Home() {
             ))}
           </div>
         </section>
-
+        */}
         <section className="flex flex-col gap-4">
           <div className="flex justify-between items-end mb-4">
             <h2 className="text-2xl sm:text-3xl font-bold flex items-center gap-3">
@@ -155,6 +157,20 @@ export default function Home() {
           <div className="grid xl:grid-cols-2 gap-4 flex-wrap">
             {tools.map((post) => (
               <ToolsPostCard key={post.slug} post={post as Tools} />
+            ))}
+          </div>
+        </section>
+        <section className="flex flex-col gap-4">
+          <div className="flex justify-between items-end mb-4">
+            <h2 className="text-2xl sm:text-3xl font-bold flex items-center gap-3">
+              <Icon name="resources" className="size-6 sm:size-8 opacity-60" />
+              <span>Resources</span>
+            </h2>
+            <Link href="/resources">View all &rarr;</Link>
+          </div>
+          <div className="grid xl:grid-cols-2 gap-4 flex-wrap">
+            {resources.map((post) => (
+              <ResourcesPostCard key={post.slug} post={post as Resources} />
             ))}
           </div>
         </section>

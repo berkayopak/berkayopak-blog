@@ -3,7 +3,7 @@ templateKey: resources
 title: >
   Placeholder Resource
 date: 2024-09-25T19:28:37.629Z
-featured: false
+featured: true
 description: >
   A brief description of the placeholder resource.
 link: #
