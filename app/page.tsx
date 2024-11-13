@@ -101,7 +101,7 @@ export default function Home() {
           <div className="flex justify-between items-end mb-4">
             <h2 className="text-2xl sm:text-3xl font-bold flex items-center gap-3">
               <Icon name="blog" className="size-6 sm:size-8 opacity-60" />
-              <span>Code Blog</span>
+              <span>Blog</span>
             </h2>
             <Link href="/blog">View all &rarr;</Link>
           </div>

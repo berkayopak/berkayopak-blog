@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://design-code.tips
+Host: https://berkayopak.tr
 
 # Sitemaps
-Sitemap: https://design-code.tips/sitemap.xml
+Sitemap: https://berkayopak.tr/sitemap.xml

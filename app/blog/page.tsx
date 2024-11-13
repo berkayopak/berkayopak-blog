@@ -10,9 +10,9 @@ import { SITE_NAME, SITE_URL } from '../../config'
 
 export function generateMetadata(): Metadata {
   const SEO = {
-    title: 'Code Blog by Nuno Marques | Design & Development Tips',
+    title: 'Blog by Berkay Opak',
     description:
-      'Discover the latest blogs on code, web design and development. Stay up to date with the latest trends and technologies, with code examples.',
+      'Discover the latest blogs on software development. Stay up to date with the latest trends and technologies, with code examples.',
     image: `${SITE_URL}/og-card.png`,
   }
 
@@ -59,7 +59,7 @@ export default function BlogPage({ params }: { params: { page: string } }) {
   return (
     <Layout>
       <section className="md:max-w-[87%] m-auto flex flex-col gap-6 px-4 sm:px-12 mb-32">
-        <CategoryHeader title="Code Blog" templateKey={blogs[0].templateKey!} />
+        <CategoryHeader title="Blog" templateKey={blogs[0].templateKey!} />
 
         <div className="flex gap-8 items-start">
           <div className="flex flex-wrap gap-4 w-full">

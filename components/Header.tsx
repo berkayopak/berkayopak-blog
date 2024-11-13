@@ -67,7 +67,7 @@ export default function Header() {
                   className={menuItemClasses}
                 >
                   <Icon name="blog" className={iconClasses} />
-                  Code Blog
+                  Blog
                 </Link>
               </li>
               <li>
