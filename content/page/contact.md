@@ -2,7 +2,7 @@
 slug: contact
 title: Contact
 description: |-
-  > ### Mail: [berkayopak@gmail.com](berkayopak@gmail.com)
+  > ### Mail: [berkayopak@gmail.com](mailto:berkayopak@gmail.com)
   >
   > ### Linkedin: <https://www.linkedin.com/in/berkayopak>
   >
