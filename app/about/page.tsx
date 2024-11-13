@@ -4,6 +4,7 @@ import Layout from '../../components/Layout'
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 import { AUTHOR_NAME, SITE_NAME, SITE_URL } from '../../config'
+import CategoryHeader from '../../components/CategoryHeader'
 
 // Get page data
 const about = allPages.find((about: Page) => about?.slug === 'about') as Page
@@ -19,7 +20,7 @@ export function generateMetadata(): Metadata {
       authors: `${AUTHOR_NAME}`,
       images: [
         {
-          url: `${SITE_URL}/og-card.png`,
+          url: `${SITE_URL}/berkayopak-tr-homepage.png`,
           width: 1600,
           height: 800,
           alt: 'banner',
@@ -35,8 +36,11 @@ export default function About() {
   return (
     <Layout>
       <section className="flex flex-col gap-12 my-24 mx-auto max-w-5xl text-center">
-        <h1 className="text-3xl font-bold">{about?.title}</h1>
-        <div className="flex flex-col gap-8">
+      <CategoryHeader
+          title={about?.title}
+          templateKey="about"
+        />
+        <div className="flex flex-col gap-8 px-4">
           <ReactMarkdown remarkPlugins={[gfm]} children={about?.description} />
         </div>
         <div className="flex flex-wrap justify-center gap-2"></div>
