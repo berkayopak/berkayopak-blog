@@ -17,7 +17,7 @@ export default function Header() {
           href="/"
           className="font-bold opacity-80 hover:opacity-100 transition-opacity rounded outline-offset-8 pointer-events-auto"
         >
-          dc.tips
+          berkayopak.tr
         </Link>
 
         <div className="absolute right-0 top-4 sm:top-5 group pointer-events-auto">
