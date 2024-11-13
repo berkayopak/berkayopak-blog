@@ -9,7 +9,7 @@ backend:
 editor:
   preview: false
 
-display_url: https://design-code.tips # This url will display in the top-right of the CMS
+display_url: https://berkayopak.tr # This url will display in the top-right of the CMS
 media_folder: 'public/media' # Media files will be stored in the repo under static/media
 public_folder: '/media' # The src attribute for uploaded media will begin with /media
 collections:
@@ -63,6 +63,7 @@ collections:
           default: 'blog',
         }
       - { label: 'Title', name: 'title', widget: string }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Featured', name: 'featured', widget: boolean, default: false }
       - {
           label: 'Body',
@@ -74,7 +75,7 @@ collections:
           # editor_components: [''],
         }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      
 
   - name: 'inspiration'
     label: 'Inspiration'
@@ -95,6 +96,7 @@ collections:
           default: 'inspiration',
         }
       - { label: 'Title', name: 'title', widget: string }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Featured', name: 'featured', widget: boolean, default: false }
       - {
           label: 'Featured Image',
@@ -110,7 +112,6 @@ collections:
           minimal: true,
         }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
 
   - name: 'podcasts'
     label: 'Podcasts'
@@ -130,6 +131,7 @@ collections:
           default: 'podcasts',
         }
       - { label: 'Title', name: 'title', widget: string }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Featured', name: 'featured', widget: boolean, default: false }
       - { label: 'Link', name: 'link', widget: string }
       - {
@@ -146,7 +148,7 @@ collections:
           minimal: true,
         }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      
 
   - name: 'tools'
     label: 'Tools'
@@ -166,6 +168,7 @@ collections:
           default: 'tools',
         }
       - { label: 'Title', name: 'title', widget: string }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Featured', name: 'featured', widget: boolean, default: false }
       - {
           label: 'App Icon Image',
@@ -182,7 +185,7 @@ collections:
           minimal: true,
         }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      
 
   - name: 'resources'
     label: 'Resources'
@@ -202,6 +205,7 @@ collections:
           default: 'resources',
         }
       - { label: 'Title', name: 'title', widget: string }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Featured', name: 'featured', widget: boolean, default: false }
       - { label: 'Image', name: 'image', widget: 'image', choose_url: false }
       - { label: 'Link', name: 'link', widget: string }
@@ -213,7 +217,7 @@ collections:
           minimal: true,
         }
       - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      
 
   # - name: 'authors'
   #   label: 'Authors'
