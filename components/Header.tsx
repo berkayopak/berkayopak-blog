@@ -65,7 +65,7 @@ function MobileNav({open, setOpen, routes} : {open: boolean, setOpen: Function, 
   return (
       <div className={`absolute top-0 left-0 h-screen w-screen bg-slate-200 dark:bg-slate-800 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
           <div className="flex items-center justify-center filter drop-shadow-md bg-slate-200 dark:bg-slate-800 h-20"> {/*logo container*/}
-              <a className="text-xl font-semibold" href="/">Menu</a>
+          <Link className="text-xl font-semibold" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>Menu</Link>
           </div>
           <div className="flex flex-col ml-4 w-full">
           {routes.map((route: {to:string; icon:string; text:string;}, index:any) => {
