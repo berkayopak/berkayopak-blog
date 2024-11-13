@@ -18,7 +18,7 @@ export function generateMetadata(): Metadata {
     title: `Explore all #Tags available at ${SITE_NAME}`,
     description:
       'Explore a comprehensive list of tags and categories, from design and development to tools and podcasts. Click on any tag to discover new insights.',
-    image: `${SITE_URL}/og-card.png`,
+    image: `${SITE_URL}/berkayopak-tr-homepage.png`,
   }
 
   return {

@@ -13,7 +13,7 @@ export function generateMetadata(): Metadata {
     title: 'Blog by Berkay Opak',
     description:
       'Discover the latest blogs on software development. Stay up to date with the latest trends and technologies, with code examples.',
-    image: `${SITE_URL}/og-card.png`,
+    image: `${SITE_URL}/berkayopak-tr-homepage.png`,
   }
 
   return {
