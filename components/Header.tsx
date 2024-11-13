@@ -70,6 +70,7 @@ export default function Header() {
                   All Tags
                 </Link>
               </li>
+              {/*
               <li>
                 <Link
                   onClick={() => setNavbar(!navbar)}
@@ -90,6 +91,7 @@ export default function Header() {
                   Podcasts
                 </Link>
               </li>
+              */}
               <li>
                 <Link
                   onClick={() => setNavbar(!navbar)}
