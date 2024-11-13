@@ -34,9 +34,9 @@ collections:
               name: 'description',
               widget: 'markdown',
               sanitize_preview: true,
-              buttons: ['bold', 'italic', 'link'],
-              modes: ['rich_text'],
-              editor_components: [''],
+              # buttons: ['bold', 'italic', 'link'],
+              # modes: ['rich_text'],
+              # editor_components: [''],
             }
 
       - file: 'content/page/contact.md'
@@ -49,9 +49,9 @@ collections:
               name: 'description',
               widget: 'markdown',
               sanitize_preview: true,
-              buttons: ['bold', 'italic', 'link'],
-              modes: ['rich_text'],
-              editor_components: [''],
+              # buttons: ['bold', 'italic', 'link'],
+              # modes: ['rich_text'],
+              # editor_components: [''],
             }
 
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
