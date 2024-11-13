@@ -25,7 +25,7 @@ export function generateMetadata(): Metadata {
       authors: `${AUTHOR_NAME}`,
       images: [
         {
-          url: `${SITE_URL}/og-card.png`,
+          url: `${SITE_URL}/berkayopak-tr-homepage.png`,
           width: 1600,
           height: 800,
           alt: `${SITE_NAME}`,

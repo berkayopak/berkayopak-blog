@@ -70,16 +70,6 @@ export default function Header() {
                   Blog
                 </Link>
               </li>
-              <li>
-                <Link
-                  onClick={() => setNavbar(!navbar)}
-                  href="/tags"
-                  className={menuItemClasses}
-                >
-                  <Icon name="tag" className={iconClasses} />
-                  All Tags
-                </Link>
-              </li>
               {/*
               <li>
                 <Link
@@ -120,6 +110,16 @@ export default function Header() {
                 >
                   <Icon name="resources" className={iconClasses} />
                   Resources
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={() => setNavbar(!navbar)}
+                  href="/tags"
+                  className={menuItemClasses}
+                >
+                  <Icon name="tag" className={iconClasses} />
+                  Tags
                 </Link>
               </li>
               <li>

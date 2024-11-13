@@ -56,7 +56,7 @@ export default function TagsPage() {
   return (
     <Layout>
       <section className="max-w-6xl m-auto px-4 mb-32">
-        <CategoryHeader title="All Tags" templateKey="tag" />
+        <CategoryHeader title="Tags" templateKey="tag" />
 
         <div className="my-4 flex flex-wrap gap-12 justify-center">
           {/* Group tags by first letter */}
